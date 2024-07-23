@@ -1,9 +1,9 @@
 import { FaArrowRightLong } from "react-icons/fa6";
 const Main = () => {
     return (  <div>
-        <div className="py-2 mt-5 ">
-          <div className="w-1/2 m-auto lg:flex flex-row ">
-          <div className="basis-2/3 pr-12 pt-4 relative">
+        <div className="py-2 mt-5 pl-10 md:pl-2 ">
+          <div className="md:w-1/2 m-auto lg:flex flex-row w-full">
+          <div className="basis-2/3 md:pr-12 pt-4 relative">
           <div className="absolute z-0 top-0 left-0 ">
             <p className="text-8xl font-bold text-slate-50 opacity-5">01</p>
           </div>
@@ -20,11 +20,11 @@ const Main = () => {
           </div>
           </div>
         </div>
-        <div className="py-28 mt-20">
-          <div className="w-1/2 m-auto lg:flex flex-row">
+        <div className="py-28 mt-20 pl-10 md:pl-2">
+          <div className="md:w-1/2 m-auto lg:flex flex-row w-full">
           <div className="bg-[url('./img/image8.jpeg')] bg-no-repeat basis-1/3 h-80 rounded">
           </div>
-          <div className="basis-2/3 pl-20 pt-4 relative">
+          <div className="basis-2/3 md:pl-20 pt-4 relative">
           <div className="absolute top-0 left-14 z-0">
             <p className="text-8xl font-bold text-slate-50 opacity-5">02</p>
           </div>
@@ -39,9 +39,9 @@ const Main = () => {
           </div>
           </div>
         </div>
-        <div className="py-5 mt-20">
-          <div className="w-1/2 m-auto lg:flex flex-row">
-          <div className="basis-2/3 pr-12 pt-4 relative">
+        <div className="py-5 mt-20 pl-10 md:pl-2">
+          <div className="md:w-1/2 m-auto lg:flex flex-row w-full">
+          <div className="basis-2/3 md:pr-12 pt-4 relative">
           <div className="absolute top-0 left-0 z-0">
             <p className="text-8xl font-bold text-slate-50 opacity-5">03</p>
           </div>
